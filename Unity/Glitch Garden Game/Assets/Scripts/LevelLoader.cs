@@ -33,4 +33,26 @@ public class LevelLoader : MonoBehaviour
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
     }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(currentSceneIndex);
+        Time.timeScale = 1;
+    }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("Start Screen");
+        Time.timeScale = 1;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void LoadOptionsScreen()
+    {
+        SceneManager.LoadScene("Option Screen");
+    }
 }

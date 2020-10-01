@@ -33,4 +33,9 @@ public class ResourceDisplay : MonoBehaviour
         }
         UpdateResouces();
     }
+
+    public int GetCurrentResource()
+    {
+        return resources;
+    }
 }

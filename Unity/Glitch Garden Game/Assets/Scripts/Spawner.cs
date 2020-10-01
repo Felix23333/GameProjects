@@ -6,11 +6,13 @@ public class Spawner : MonoBehaviour
 {
     [SerializeField] float minPeriod = 1f;
     [SerializeField] float maxPeriod = 5f;
-    [SerializeField] Attacker Attacker;
+    [SerializeField] Attacker[] Attackers;
+    GameTimer gameTimer;
     bool spawn = true;
     // Start is called before the first frame update
     IEnumerator Start()
     {
+        gameTimer = FindObjectOfType<GameTimer>();
         while (spawn)
         {
             float spawnPeriod = Random.Range(minPeriod, maxPeriod);
@@ -22,11 +24,26 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
- 
+        if(gameTimer.IsSpawnFinished() && spawn)
+        {
+            StopSpawn();
+        }
     }
 
     private void SpawnAttacker()
     {
-        Instantiate(Attacker, transform.position, transform.rotation);
+        Attacker newAttacker = Instantiate(RandomSpawn(), transform.position, transform.rotation) as Attacker;
+        newAttacker.transform.parent = transform;
+    }
+
+    private Attacker RandomSpawn()
+    {
+        int index = Attackers.Length;
+        return Attackers[Random.Range(0, index)];
+    }
+
+    private void StopSpawn()
+    {
+        spawn = false;
     }
 }

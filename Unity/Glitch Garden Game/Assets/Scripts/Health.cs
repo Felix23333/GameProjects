@@ -31,7 +31,33 @@ public class Health : MonoBehaviour
 
     private void TriggerDeathVFX()
     {
+        if(!deathVFX)
+        {
+            return;
+        }
         GameObject deathVFXObj = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(deathVFXObj, 0.5f);
     }
+
+    public float GetCurrentHealth()
+    {
+        return currentHealth;
+    }
+
+    public void SetMaxHealth(float health)
+    {
+        maxHealth = health;
+    }
+
+    /*public bool IsDead()
+    {
+        if(currentHealth <= 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }*/
 }

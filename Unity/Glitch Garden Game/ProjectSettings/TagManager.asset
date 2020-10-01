@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Attacker
+  - Shield
+  - Win label
   layers:
   - Default
   - TransparentFX

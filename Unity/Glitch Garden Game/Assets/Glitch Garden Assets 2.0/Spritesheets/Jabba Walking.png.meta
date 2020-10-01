@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: 9c1ed22205dcf2447a4900cd89d6be63
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8898071222588902783
+    second: Jabba Walking_0
+  - first:
+      213: 8298084095177405490
+    second: Jabba Walking_1
+  - first:
+      213: -7963612708707547389
+    second: Jabba Walking_2
+  - first:
+      213: -7610526614286523004
+    second: Jabba Walking_3
+  - first:
+      213: 4702092881318482462
+    second: Jabba Walking_4
+  - first:
+      213: 2356062786193476842
+    second: Jabba Walking_5
+  - first:
+      213: 2079731245301866431
+    second: Jabba Walking_6
+  - first:
+      213: 984936302769476046
+    second: Jabba Walking_7
+  - first:
+      213: -2578093862068254103
+    second: Jabba Walking_8
+  - first:
+      213: 1230655984377252044
+    second: Jabba Walking_9
+  - first:
+      213: -8146032167771056869
+    second: Jabba Walking_10
+  - first:
+      213: -1807585389387087921
+    second: Jabba Walking_11
+  - first:
+      213: 4611551433992501798
+    second: Jabba Walking_12
+  - first:
+      213: 8814104414533706894
+    second: Jabba Walking_13
+  - first:
+      213: -2106685000583540032
+    second: Jabba Walking_14
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +85,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +115,360 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Jabba Walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1407
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73e5a8abd6942546a24658e5138a363
+      internalID: -8898071222588902783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_1
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1407
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e17098159afa0409c47ca711c4df17
+      internalID: 8298084095177405490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1206
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37240417f056f044bfa2f2e5938c513
+      internalID: -7963612708707547389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1206
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073fa7bffd8bca74f9af980c86fbb26a
+      internalID: -7610526614286523004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1005
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9413ee60be3bf1a499a498ff03dc1834
+      internalID: 4702092881318482462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_5
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1005
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d833e06a1d48e544d8fb22b3222a1e9c
+      internalID: 2356062786193476842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 804
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d19a5a4d6b48447b143e8850c7abf3
+      internalID: 2079731245301866431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_7
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 804
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663b15090fe49cf4e8e2c3f6e8111194
+      internalID: 984936302769476046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 603
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f0c57a876d0b145a2196f6bcc0b2b7
+      internalID: -2578093862068254103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 603
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e17df37c384ebf47bae918f69ae0bfc
+      internalID: 1230655984377252044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7295eedcce2d4414197c0f2000e62c2d
+      internalID: -8146032167771056869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 402
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f72a5463f43b3c4c8259e86cff0ec46
+      internalID: -1807585389387087921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba0d8d54b263f44e941e084263b5fef
+      internalID: 4611551433992501798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_13
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 201
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e897c9e2e142148acecc5e15487028
+      internalID: 8814104414533706894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jabba Walking_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 439
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8901ab18a594c5649a17b22739d71443
+      internalID: -2106685000583540032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
