@@ -1152,12 +1152,12 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 346548645}
-    - target: {fileID: 4123246983584798837, guid: 40e5abc8e013da54e9c56ac504e6190e,
+    - target: {fileID: 4895874977322261760, guid: 40e5abc8e013da54e9c56ac504e6190e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2045013840}
-    - target: {fileID: 4895874977322261760, guid: 40e5abc8e013da54e9c56ac504e6190e,
+    - target: {fileID: 4123246983584798837, guid: 40e5abc8e013da54e9c56ac504e6190e,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1448,11 +1448,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6549823762733356981, guid: 3a657f2251f49e2498d12437e5b86628,
-        type: 3}
-      propertyPath: defenderPrefab
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a657f2251f49e2498d12437e5b86628, type: 3}
